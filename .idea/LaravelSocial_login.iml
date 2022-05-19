@@ -30,11 +30,13 @@
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/laravel/sail" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/laravel/sanctum" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/laravel/socialite" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/laravel/tinker" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/league/commonmark" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/league/config" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/league/flysystem" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/league/oauth1-client" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/myclabs/deep-copy" />

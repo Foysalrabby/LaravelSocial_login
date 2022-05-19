@@ -113,6 +113,8 @@
       <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/blog/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/blog/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/blog/vendor/laravel/socialite" />
     </include_path>
   </component>
   <component name="PhpUnit">
