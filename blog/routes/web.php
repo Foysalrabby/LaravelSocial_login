@@ -18,3 +18,4 @@ Route::get('/', function () {
     return view('Home');
 });
 Route::get('/dashboard',[DashboradController::class,'ONdashboard']);
+//Route::get('/LoginCallBack',[DashboradController::class,'ONdashboard']);

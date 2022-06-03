@@ -2,6 +2,12 @@
 
 return [
 
+    'github' => [
+        'client_id' => 'd6c08165778fa67aa3a6',
+        'client_secret' => '0497d92d4ece4933eb38c974b5520ecbbe20adcb',
+        'redirect' => 'http://127.0.0.1:8000/LoginCallBack',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Third Party Services
