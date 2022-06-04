@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboradController;
 use App\Http\Controllers\LoginRegisterController;
-
+use App\Http\Controllers\Homecontroller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,10 +15,8 @@ use App\Http\Controllers\LoginRegisterController;
 |
 */
 
-Route::get('/', function () {
-    return view('Home');
-});
-Route::get('/dashboard',[DashboradController::class,'ONdashboard']);
+Route::get('/',[Homecontroller::class,'homepage']);
+Route::get('/dashboard',[DashboradController::class,'ONdashboard'])->middleware('check');
 Route::get('/Callgithub',[LoginRegisterController::class,'CallGithub']);
-
 Route::get('/LoginCallBack',[LoginRegisterController::class,'GithubLoginCallback']); //registration somoy github give data
+Route::get('/Logout',[LoginRegisterController::class,'Githublogout']);

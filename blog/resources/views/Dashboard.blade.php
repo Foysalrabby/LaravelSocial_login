@@ -34,7 +34,7 @@
                        </tr>
 
                    </table>
-                    <button> <a href="#"> Logout</a></button>
+                    <button> <a href="/Logout"> Logout</a></button>
                 </div>
             </div>
 

@@ -9,6 +9,18 @@ use Illuminate\Support\Facades\Session;  //Session must akan hote import korte h
 
 class LoginRegisterController extends Controller
 {
+
+    //for logout
+    function Githublogout(Request $request){
+
+          $request->session()->flush();
+          return redirect('/');  //home page login register page
+
+
+    }
+
+
+
  //calling githhub Authntication this method and user login when github loginpage redirect
     function  CallGithub(){
      $CallingGitHubservice= Socialite::driver('github')->redirect();
