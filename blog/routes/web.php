@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboradController;
+use App\Http\Controllers\LoginRegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +19,6 @@ Route::get('/', function () {
     return view('Home');
 });
 Route::get('/dashboard',[DashboradController::class,'ONdashboard']);
-//Route::get('/LoginCallBack',[DashboradController::class,'ONdashboard']);
+Route::get('/Callgithub',[LoginRegisterController::class,'CallGithub']);
+
+Route::get('/LoginCallBack',[LoginRegisterController::class,'GithubLoginCallback']); //registration somoy github give data
